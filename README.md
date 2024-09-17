@@ -14,11 +14,10 @@
 </div>
 <h2>:open_file_folder: Otros Archivos importantes </h2>
 
->[Enlace de lo Diseño de los Muckup's 🎨](https://www.figma.com/file/x61WD2iJ0Xgv6paAFdEGny/interfaces-SnapGallery?type=design&node-id=0%3A1&mode=design&t=bfXOj73YNtXF5bE8-1)
 
-> [Enlace a Notion 📗📝](https://www.notion.so/invite/4beb6c5562d5dc1b4e803922212a6329da366cf1) 
+> [Enlace al video]() 
 
-> [Pefil del proyecto PDF 📖](https://github.com/Cabrera437/PROYECTO-DE-CATEDRA-DE-DPS/blob/master/Poyecto_de_catedra_fase1_DPS.pdf)
+> [Documento PDF 📖](https://github.com/DiegoIsma/Desafio_02_DSM/blob/main/Desafio02_DSM.pdf)
 
-> [Manuales 📖](https://github.com/Cabrera437/PROYECTO-DE-CATEDRA-DE-DPS/tree/master/Manuales)
+
 
