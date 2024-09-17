@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    tools:context="com.example.Farmacia_Chavez.OrdenActivity">
+
+    <!-- Título de la orden -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Resumen de tu orden"
+        android:textSize="24sp"
+        android:textColor="#3E4A59"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Nombre del medicamento seleccionado -->
+    <TextView
+        android:id="@+id/medicamentoTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Medicamento: Paracetamol"
+        android:textSize="18sp"
+        android:textColor="#3E4A59"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/titleTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Precio del medicamento -->
+    <TextView
+        android:id="@+id/precioTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Precio: $5.00"
+        android:textSize="18sp"
+        android:textColor="#3E4A59"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/medicamentoTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Cantidad de medicamentos -->
+    <TextView
+        android:id="@+id/cantidadTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Cantidad: 1"
+        android:textSize="18sp"
+        android:textColor="#3E4A59"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/precioTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Total de la orden -->
+    <TextView
+        android:id="@+id/totalTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Total: $5.00"
+        android:textSize="20sp"
+        android:textColor="#FF5722"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/cantidadTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Botón para confirmar la compra -->
+    <Button
+        android:id="@+id/confirmarButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Confirmar compra"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#4CAF50"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@id/totalTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <!-- Botón para regresar al menú principal (MainActivity) -->
+    <Button
+        android:id="@+id/volverMainButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Volver al Menú Principal"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF5722"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/confirmarButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.8" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
