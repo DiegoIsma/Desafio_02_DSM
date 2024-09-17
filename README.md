@@ -1,9 +1,9 @@
 # Desafio_02_DSM
 #   Farmacia Chavez 
-<div>
+
 ![by-nc-nd](https://github.com/DiegoIsma/Desafio_02_DSM/blob/main/Logo.png)
   <h2> Logo</h2>
-</div>
+
 <h2>:wave: Desarrollador</h2>
 <div style={padding: 10px}>
   <table style={margin: 0 auto}>
