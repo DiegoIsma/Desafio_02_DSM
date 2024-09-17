@@ -1,7 +1,7 @@
 # Desafio_02_DSM
 #   Farmacia Chavez 
 
-![by-nc-nd](https://github.com/Cabrera437/PROYECTO-DE-CATEDRA-DE-DPS/blob/master/Licencia.png)
+![by-nc-nd](https://github.com/DiegoIsma/Desafio_02_DSM/blob/main/Logo.png)
   
 <h2>:wave: Desarrollador</h2>
 <div style={padding: 10px}>
